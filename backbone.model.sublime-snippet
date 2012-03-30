@@ -1,7 +1,13 @@
 <snippet>
     <content><![CDATA[
-Backbone.Model.extend({${0:properties}});
-]]></content>
+var ${1:${TM_FILENAME/.js$//}} = Backbone.Model.extend({
+    defaults: {
+    },
+
+    initialize: function(){
+        $0
+    }
+});]]></content>
     <tabTrigger>bm</tabTrigger>
     <scope>source.js</scope>
     <description>Backbone Model</description>

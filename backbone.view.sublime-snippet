@@ -1,7 +1,11 @@
 <snippet>
     <content><![CDATA[
-Backbone.View.extend({${0:properties}});
-]]></content>
+var ${1:${TM_FILENAME/.js$//}} = Backbone.View.extend({
+    initialize: function(options){
+        options = options || {};
+        $0
+    }
+});]]></content>
     <tabTrigger>bv</tabTrigger>
     <scope>source.js</scope>
     <description>Backbone View</description>
